@@ -1,0 +1,19 @@
+<S>    ::= <expr>
+
+<expr> ::= ( <expr> ) 
+        |  <expr> <op> <expr>
+        |  <func> ( <expr> )
+        |  <terminal>
+
+<op> ::= +
+      |  -
+      |  *
+      |  /
+      |  ^
+
+<func> ::= udf1 
+        |  udf2 
+        |  udf3 
+        |  udf4
+        |  udf5
+        |  udf6

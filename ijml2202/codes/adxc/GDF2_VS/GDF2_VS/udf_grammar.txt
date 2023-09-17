@@ -1,0 +1,22 @@
+<S>    ::= <expr>
+
+<expr> ::= ( <expr> ) 
+        |  <expr> <op> <expr>
+        |  <func> ( <expr> )
+	|  <terminal>
+
+<op> ::= +
+      |  -
+      |  *
+      |  /
+      |  ^
+
+<func> ::= sin
+        |  cos
+        |  exp
+        |  log 
+        |  abs 
+        |  sqrt 
+	|  udf1
+	|  udf2
+	|  udf3

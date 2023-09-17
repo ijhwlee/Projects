@@ -1,0 +1,14 @@
+start ""/b "GDF2_VS.exe" -p hz_sigma_new.data -g grammar.txt -n 30000 -e 5 -f norm_N30000_new.dat
+start ""/b "GDF2_VS.exe" -p hz_sigma_new.data -g grammar.txt -n 100000 -e 5 -f norm_N100000_new.dat
+start ""/b "GDF2_VS.exe" -p hz_sigma_new.data -g grammar_notrig.txt -n 1000 -e 5 -f notrig_N1000_new.dat
+start ""/b "GDF2_VS.exe" -p hz_sigma_new.data -g grammar_notrig.txt -n 2000 -e 5 -f notrig_N2000_new.dat
+start ""/b "GDF2_VS.exe" -p hz_sigma_new.data -g grammar_notrig.txt -n 10000 -e 5 -f notrig_N10000_new.dat
+start ""/b "GDF2_VS.exe" -p hz_sigma_new.data -g grammar_notrig.txt -n 20000 -e 5 -f notrig_N20000_new.dat
+start ""/b "GDF2_VS.exe" -p hz_sigma_new.data -g grammar_notrig.txt -n 30000 -e 5 -f notrig_N30000_new.dat
+start ""/b "GDF2_VS.exe" -p hz_sigma_new.data -g grammar_notrig.txt -n 100000 -e 5 -f notrig_N100000_new.dat
+start ""/b "GDF2_VS.exe" -p hz_sigma_new.data -g grammar_nolog.txt -n 1000 -e 5 -f nolog_N1000_new.dat
+start ""/b "GDF2_VS.exe" -p hz_sigma_new.data -g grammar_nolog.txt -n 2000 -e 5 -f nolog_N2000_new.dat
+start ""/b "GDF2_VS.exe" -p hz_sigma_new.data -g grammar_nolog.txt -n 10000 -e 5 -f nolog_N10000_new.dat
+start ""/b "GDF2_VS.exe" -p hz_sigma_new.data -g grammar_nolog.txt -n 20000 -e 5 -f nolog_N20000_new.dat
+start ""/b "GDF2_VS.exe" -p hz_sigma_new.data -g grammar_nolog.txt -n 30000 -e 5 -f nolog_N30000_new.dat
+start ""/b "GDF2_VS.exe" -p hz_sigma_new.data -g grammar_nolog.txt -n 100000 -e 5 -f nolog_N100000_new.dat

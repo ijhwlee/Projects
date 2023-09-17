@@ -1,0 +1,17 @@
+<S>    ::= <expr>
+
+<expr> ::= ( <expr> ) 
+        |  <expr> <op> <expr>
+        |  <func> ( <expr> )
+        |  <terminal>
+
+<op> ::= +
+      |  -
+      |  *
+      |  /
+      |  ^
+
+<func> ::= exp 
+        |  abs 
+        |  sqrt 
+        |  tanh
